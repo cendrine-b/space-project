@@ -2,6 +2,10 @@
 <html ng-app="app">
 
 <head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="A simple website to discover wonderful space pictures." />
+  <meta name="keywords" content="space, galaxy, stars, planets, NASA, picture, exploration, discover" />
+  <meta name="author" content="Cendrine Buisson" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/svg" href="../img/space.png" />
   <title>Space project</title>
