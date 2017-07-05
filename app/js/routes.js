@@ -1,11 +1,8 @@
 angular.module('app')
-    .config(function($stateProvider, $urlRouterProvider, AccessLevels) {
+    .config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('anon', {
                 abstract: true,
-                data: {
-                    access: AccessLevels.anon
-                },
                 views: {
                     'navbar@': {
                         templateUrl: 'anon/navbar.html',
