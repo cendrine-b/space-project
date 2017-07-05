@@ -22,7 +22,7 @@
     "lineman-less": "^0.1.0",
     "method-override": "",
     "mongoose": "",
-    "morgan": "",
+    "morgan": ""
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
