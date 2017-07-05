@@ -1,3 +1,53 @@
 // Main less file for your application.
 // Use `@import` to use other less files
 // relative to 'app/css' or 'vendor/css'.
+@main-color: black;
+@second-color: white;
+
+.title-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.labor-font {
+  font-family: 'Roboto Slab', serif;
+}
+/* ///////////////////////////////// GENERALITIES ///////////////////////////////// */
+body,
+html {
+  .labor-font();
+  font-size: 16px;
+  text-align: center;
+  text-shadow: none;
+}
+/* ///////////////////////////////// NAVBAR ///////////////////////////////// */
+.navbar.navbar-default {
+  border: none;
+}
+
+.navbar-default .container-fluid {
+  background-color: @main-color;
+}
+
+.navbar-default .navbar-toggle i {
+  color: @second-color;
+  font-size: 1.4rem;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  border: none;
+  background-color: @main-color;
+}
+
+#navbar ul li a {
+  color: @second-color;
+}
+
+#navbar ul .active a,
+#navbar ul li a:hover,
+#navbar ul li a:focus {
+  color: @main-color;
+  background: @second-color;
+}
