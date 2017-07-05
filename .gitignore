@@ -7,4 +7,6 @@
 /generated
 /node_modules
 
+npm-debug.log*
+
 .sass-cache
