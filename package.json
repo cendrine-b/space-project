@@ -12,17 +12,17 @@
     "createAdmin": "cd server && babel-node ./api/userCreation.js"
   },
   "dependencies": {
-    "express": "",
-    "lineman": "~0.37.0",
-    "lineman-angular": "^0.3.0",
-    "lineman-less": "^0.1.0",
     "bcrypt": "",
     "body-parser": "",
     "cors": "",
+    "express": "",
     "jsonwebtoken": "",
+    "lineman": "~0.37.0",
+    "lineman-angular": "^0.3.0",
+    "lineman-less": "^0.1.0",
     "method-override": "",
     "mongoose": "",
-    "morgan": ""
+    "morgan": "",
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
