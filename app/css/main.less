@@ -36,7 +36,7 @@ html {
   font-size: 18px;
   text-align: center;
   text-shadow: none;
-  color: @main-color;
+  color: @second-color;
 }
 
 .subheading,
@@ -115,18 +115,32 @@ h2 {
 }
 /* ///////////////////////////////// HOMEPAGE ///////////////////////////////// */
 .home-main {
-  height: 90vh;
+  min-height: 90vh;
   .flexbox-center();
+  background-color: @main-color;
 }
+
+div[background-image] {
+  min-height: 100vh;
+}
+
+.home-main i {
+  font-size: 1.5rem;
+}
+
+#collapse-info {
+  margin: 3rem auto;
+}
+// background-color: rgba(0, 0, 0, 0.4);
 /* ///////////////////////////////// FOOTER ///////////////////////////////// */
 footer {
   .flexbox-center();
-  position: absolute;
   bottom: 0;
   width: 100%;
   height: 2rem;
-  background-color: @second-color;
+  background-color: @main-color;
 }
+
 footer p {
   font-size: 0.667em;
   margin: 0;

@@ -1,0 +1,13 @@
+angular.module('app')
+  .directive('backgroundImage', function() {
+    return function(scope, element, attrs) {
+      attrs.$observe('backgroundImage', function(value) {
+        element.css({
+          'background-image': 'url(' + value + ')',
+          'background-size': 'cover',
+          'background-repeat': 'no-repeat',
+          'background-position': 'top center'
+        });
+      });
+    };
+  });
