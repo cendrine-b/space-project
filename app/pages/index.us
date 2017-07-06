@@ -2,19 +2,23 @@
 <html ng-app="app">
 
 <head>
-    <title>
-        <%= pkg.name %>
-    </title>
-
-    <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
+  <meta charset="UTF-8" />
+  <meta name="description" content="A simple website to discover wonderful space pictures." />
+  <meta name="keywords" content="space, galaxy, stars, planets, NASA, picture, exploration, discover" />
+  <meta name="author" content="Cendrine Buisson" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg" href="../img/space.png" />
+  <title>Space project</title>
+  <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
+  <div ui-view='navbar'></div>
+  <div ui-view='content'></div>
 
-    <div ui-view='navbar'></div>
-    <div ui-view='content'></div>
-
-    <script type="text/javascript" src="<%= js %>"></script>
+  <script type="text/javascript" src="<%= js %>"></script>
 </body>
 
 </html>
