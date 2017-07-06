@@ -10,7 +10,7 @@
   <link rel="icon" type="image/svg" href="../img/space.png" />
   <title>Space project</title>
   <link rel="stylesheet" type="text/css" href="<%= css %>" media="all" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400|Roboto:300,500" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
