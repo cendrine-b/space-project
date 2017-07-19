@@ -6,6 +6,20 @@
   </div>
 </section>
 
+<section class="container-fluid today">
+  <div class="row">
+    <div class="col-lg-offset-1 col-lg-5 col-xs-12 today-picture">
+      <img class="img-responsive" src="{{ apod.hdurl }}" alt="{{ apod.title }}">
+    </div>
+    <div class="col-lg-5 col-xs-12 today-text">
+      <h2>{{ apod.date }}</h2>
+      <h1>{{ apod.title }}</h1>
+      <p ng-show="apod.copyright">Copyright: {{ apod.copyright }}</p>
+      <p>{{ apod.explanation }}</p>
+    </div>
+  </div>
+</section>
+
 <footer class="container-fluid">
   <p>Logotype "Planet" by Jonathan Collie from the Noun Project.</p>
 </footer>
